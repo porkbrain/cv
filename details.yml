@@ -1,0 +1,101 @@
+---
+# Settings
+mainfont: CMU Serif
+
+
+# Personal details
+name: Michael Bausano
+address:
+- Prague, Czech Republic
+phone: "+44 75 999 06 380"
+email: michael@porkbrain.com
+urls:
+- porkbrain.com
+# - github.com/bausano
+- github.com/bausano?tab=repositories&language=rust
+
+
+# Sections
+intro:
+  about: Distributed systems engineer proficient in Rust
+  keywords: Rust, Docker, microservices, AWS
+
+experience:
+- years: 2021
+  employer: Lumaly
+  job: Consultant
+  keywords: Node, Typescript, language design
+  description: >
+    Managed two business critical projects for a browser extension startup:
+    a new re-thought code base design and a domain specific language plus its interpreter.
+    Soon offered a frontend team lead role of about 10 remote developers.
+- years: 2019--2021
+  employer: Enhance
+  job: Rust backend engineer
+  keywords: Rust, gRPC, Docker, microservices, Google Cloud, DevOps, Postgres
+  description: >
+    Owned microservices related to DNS, MySQL, health monitoring and
+    an orchestration layer, all to build a reliable and secure web hosting software.
+    Managed several utility libraries which parsed and validated popular configuration formats.
+    Had a deep interest in process supervision and an actor model for asynchronous work in Rust.
+    Developed a high standard of rapport and documentation for collaboration with remote teams.
+- years: 2018--2019
+  employer: Global Savings Group
+  job: Full-stack engineer
+  keywords: Node, Typescript, Vue, Java, AWS, DevOps, HTTP REST
+  description: >
+    Built a browser extension framework with focus on message passing.
+    Delivered an anomaly detection service.
+    Owned analytics implementation and interpreted data for feature planning.
+- years: 2017--2018
+  employer: Pouch
+  job: Full-stack engineer
+  keywords: Node, Javascript, PHP, AWS
+  description: >
+    Worked on a browser extension and on data scrapers. Soon gained trust of CTO
+    and replaced an outsourced team.
+    Was a key tech team member when Pouch got acquired by Global Savings Group.
+- years: 2015, 2016
+  employer: 8commerce
+  job: Summer internships
+  keywords: PHP, Symphony
+  description: >
+    Maintained and expanded an e-shop solution.
+
+education:
+- year: 2019
+  subject: BSc Computer Science
+  institute: Middlesex University London
+  city: London
+
+projects:
+- years: 2021
+  name: Newsletter discounts
+  keywords: Rust, Docker, kubernetes, AWS, Python, machine learning
+  description: >
+    SaaS product which analyses incoming emails from eshops and extracts discount
+    information from text and images.
+    Works as a pipeline of several Rust binaries which pass messages via queues.
+- years: 2021
+  name: Jump rope assistant
+  url: github.com/bausano/jump-rope
+  keywords: Rust, signal processing, Bevy, ECS
+  description: >
+    Performs FFT over many patches of a video input to track a frequency of
+    jumping a rope. Graphs a curve representing the frequency.
+- years: 2020
+  name: suckless.hn
+  url: github.com/bausano/suckless.hn
+  keywords: Rust, SQLite, Docker, AWS, Hacker News, ARM
+  description: >
+    Website with an experimental architecture which filters Hacker News submissions.
+- years: 2019
+  name: Find objects in images
+  url: github.com/bausano/harriet-vision-nursery
+  keywords: Rust, image processing
+  description: >
+    Re-upload of an early Rust projects. (Wrote first Rust programs
+    in summer 2018.)
+    Spawns an HTTP server which finds objects in cartoon images.
+
+---
