@@ -103,7 +103,7 @@ $endif$
 \vspace{30pt}
 
 $if(intro)$
-$intro.about$\\
+$intro.tagline$\\
 {\footnotesize\textsc{$intro.keywords$}}
 $endif$
 
@@ -116,13 +116,13 @@ $endif$
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}, \emph{$experience.job$}\\
 {\footnotesize\textsc{$experience.keywords$}}\\[.15cm]
-$experience.description$\\[.3cm]
+$experience.description$\\[.5cm]
 $endfor$
 
 \newpage
 
 $if(projects)$
-\section*{Other relevant projects}
+\section*{Other relevant work}
 $for(projects)$
 \note{$projects.years$}\emph{$projects.name$}\\
 {\footnotesize\textsc{$projects.keywords$}}\\[.1cm]
@@ -141,6 +141,13 @@ $for(education)$
 \note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
 \emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
 $endfor$
+$endif$
+
+$if(intro)$
+$if(intro.about)$
+\section*{Cultural fit}
+$intro.about$\\
+$endif$
 $endif$
 
 \end{document}

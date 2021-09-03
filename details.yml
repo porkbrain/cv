@@ -17,8 +17,12 @@ urls:
 
 # Sections
 intro:
-  about: Distributed systems engineer proficient in Rust
+  tagline: Distributed systems engineer proficient in Rust
   keywords: Rust, Docker, microservices, AWS
+  about: >
+    Chess player and a hard sci-fi fan.
+    Looking for a collective which is professional in versioned controlled
+    settings but easy going in their instant messaging correspondence.
 
 experience:
 - years: 2021
@@ -26,7 +30,7 @@ experience:
   job: Consultant
   keywords: Node, Typescript, language design
   description: >
-    Managed two business critical projects for a browser extension startup:
+    Led two business critical projects for a browser extension startup:
     a new re-thought code base design and a domain specific language plus its interpreter.
     Soon offered a frontend team lead role of about 10 remote developers.
 - years: 2019--2021
@@ -37,7 +41,7 @@ experience:
     Owned microservices related to DNS, MySQL, health monitoring and
     an orchestration layer, all to build a reliable and secure web hosting software.
     Managed several utility libraries which parsed and validated popular configuration formats.
-    Had a deep interest in process supervision and an actor model for asynchronous work in Rust.
+    Pursued an ongoing interest in process supervision and an actor model for asynchronous work in Rust.
     Developed a high standard of rapport and documentation for collaboration with remote teams.
 - years: 2018--2019
   employer: Global Savings Group
@@ -81,8 +85,8 @@ projects:
   url: github.com/bausano/jump-rope
   keywords: Rust, signal processing, Bevy, ECS
   description: >
-    Performs FFT over many patches of a video input to track a frequency of
-    jumping a rope. Graphs a curve representing the frequency.
+    Performs FFT over a video input to track a frequency of jumping a rope.
+    Graphs a curve representing the frequency.
 - years: 2020
   name: suckless.hn
   url: github.com/bausano/suckless.hn
@@ -94,8 +98,7 @@ projects:
   url: github.com/bausano/harriet-vision-nursery
   keywords: Rust, image processing
   description: >
-    Re-upload of an early Rust projects. (Wrote first Rust programs
-    in summer 2018.)
+    Re-upload of an early Rust project. (Wrote first Rust programs in 2018.)
     Spawns an HTTP server which finds objects in cartoon images.
 
 ---
