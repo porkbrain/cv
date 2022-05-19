@@ -8,23 +8,34 @@ name: Michael Bausano
 address:
 - Prague, Czech Republic
 phone: "+44 75 999 06 380"
-email: michael@porkbrain.com
+email: linkedin@porkbrain.com
 urls:
-- porkbrain.com
 # - github.com/bausano
 - github.com/bausano?tab=repositories&language=rust
+- porkbrain.com
 
 
 # Sections
 intro:
   tagline: Distributed systems engineer proficient in Rust
-  keywords: Rust, Docker, microservices, AWS
+  keywords: Rust, Docker, microservices, AWS, smart contracts
   about: >
     Chess player and a hard sci-fi fan.
     Looking for a collective which is professional in versioned controlled
     settings but easy going in their instant messaging correspondence.
 
 experience:
+- years: 2021--present
+  employer: Aldrin
+  job: Rust DeFi engineer
+  keywords: blockchain, Solana, Rust, Typescript, Anchor, smart contracts
+  description: >
+    Quickly obtained necessary technological skills for design, development and
+    maintenance of Solana programs.
+    Applied strong software engineering background to deliver features such as
+    borrow lending, leverage yield farming, automatic market maker integration,
+    stable coin and others.
+    My programs were independently audited with a highly positive feedback.
 - years: 2021
   employer: Lumaly
   job: Consultant
