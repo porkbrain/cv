@@ -2,18 +2,16 @@
 # Settings
 mainfont: CMU Serif
 
-
 # Personal details
 name: Michael Bausano
 address:
-- Prague, Czech Republic
+  - Prague, Czech Republic
 phone: "+44 75 999 06 380"
 email: linkedin@porkbrain.com
 urls:
-# - github.com/bausano
-- github.com/bausano?tab=repositories&language=rust
-- porkbrain.com
-
+  - github.com/bausano
+  # - github.com/bausano?tab=repositories&language=rust
+  - porkbrain.com
 
 # Sections
 intro:
@@ -25,91 +23,99 @@ intro:
     settings but easy going in their instant messaging correspondence.
 
 experience:
-- years: 2021--present
-  employer: Aldrin
-  job: Rust DeFi engineer
-  keywords: blockchain, Solana, Rust, Typescript, Anchor, smart contracts
-  description: >
-    Quickly obtained necessary technological skills for design, development and
-    maintenance of Solana programs.
-    Applied strong software engineering background to deliver features such as
-    borrow lending, leverage yield farming, automatic market maker integration,
-    stable coin and others.
-    My programs were independently audited with a highly positive feedback.
-- years: 2021
-  employer: Lumaly
-  job: Consultant
-  keywords: Node, Typescript, language design
-  description: >
-    Led two business-critical projects for a browser extension startup:
-    a new re-thought code base design and a domain specific language plus its interpreter.
-    Soon offered a frontend team lead role of about 10 remote developers.
-- years: 2019--2021
-  employer: Enhance
-  job: Rust backend engineer
-  keywords: Rust, gRPC, Docker, microservices, Google Cloud, DevOps, Postgres
-  description: >
-    Owned microservices related to DNS, MySQL, health monitoring and
-    an orchestration layer, all to build a reliable and secure web hosting software.
-    Managed several utility libraries which parsed and validated popular configuration formats.
-    Pursued an ongoing interest in process supervision and an actor model for asynchronous work in Rust.
-    Developed a high standard of rapport and documentation for collaboration with remote teams.
-- years: 2018--2019
-  employer: Global Savings Group
-  job: Full-stack engineer
-  keywords: Node, Typescript, Vue, Java, AWS, DevOps, HTTP REST
-  description: >
-    Built a browser extension framework with focus on message passing.
-    Delivered an anomaly detection service.
-    Owned analytics implementation and interpreted data for feature planning.
-- years: 2017--2018
-  employer: Pouch
-  job: Full-stack engineer
-  keywords: Node, Javascript, PHP, AWS
-  description: >
-    Worked on a browser extension and on data scrapers. Soon gained trust of CTO
-    and replaced an outsourced team.
-    Was a key tech team member when Pouch got acquired by Global Savings Group.
-- years: 2015, 2016
-  employer: 8commerce
-  job: Summer internships
-  keywords: PHP, Symphony
-  description: >
-    Maintained and expanded an e-shop solution.
+  - years: 2022--2023
+    employer: Originbyte
+    job: Move Developer
+    keywords: blockchain, Sui, Move
+    description: >
+      Contributed to core trading concepts on Sui blockchain.
+  - years: 2021--2022
+    employer: Aldrin
+    job: Rust DeFi Team Lead
+    keywords: blockchain, Solana, Sui, Rust, Typescript, Move, Anchor
+    description: >
+      Quickly obtained necessary technological skills for design, development and
+      maintenance of Solana programs.
+      Applied strong software engineering background to deliver features such as
+      borrow lending, leverage yield farming, automatic market maker, concentrated
+      liquidity, stable coin and others.
+      My programs were independently audited with a highly positive feedback.
+      Currently leading a team of engineers to deliver new features.
+  - years: 2021
+    employer: Lumaly
+    job: Consultant
+    keywords: Node, Typescript, language design
+    description: >
+      Led two business-critical projects for a browser extension startup:
+      a new re-thought code base design and a domain specific language plus its interpreter.
+      Soon offered a frontend team lead role of about 10 remote developers.
+  - years: 2019--2021
+    employer: Enhance
+    job: Rust backend engineer
+    keywords: Rust, gRPC, Docker, microservices, Google Cloud, DevOps, Postgres
+    description: >
+      Owned microservices related to DNS, MySQL, health monitoring and
+      an orchestration layer, all to build a reliable and secure web hosting software.
+      Managed several utility libraries which parsed and validated popular configuration formats.
+      Pursued an ongoing interest in process supervision and an actor model for asynchronous work in Rust.
+      Developed a high standard of rapport and documentation for collaboration with remote teams.
+  - years: 2018--2019
+    employer: Global Savings Group
+    job: Full-stack engineer
+    keywords: Node, Typescript, Vue, Java, AWS, DevOps, HTTP REST
+    description: >
+      Built a browser extension framework with focus on message passing.
+      Delivered an anomaly detection service.
+      Owned analytics implementation and interpreted data for feature planning.
+  - years: 2017--2018
+    employer: Pouch
+    job: Full-stack engineer
+    keywords: Node, Javascript, PHP, AWS
+    description: >
+      Worked on a browser extension and on data scrapers. Soon gained trust of CTO
+      and replaced an outsourced team.
+      Was a key tech team member when Pouch got acquired by Global Savings Group.
+  - years: 2015, 2016
+    employer: 8commerce
+    job: Summer internships
+    keywords: PHP, Symphony
+    description: >
+      Maintained and expanded an e-shop solution.
 
 education:
-- year: 2019
-  subject: BSc Computer Science
-  institute: Middlesex University London
-  city: London
+  - year: 2019
+    subject: BSc Computer Science
+    institute: Middlesex University London
+    city: London
 
-projects:
-- years: 2021
-  name: Newsletter discounts
-  keywords: Rust, Docker, kubernetes, AWS, Python, machine learning
-  description: >
-    SaaS product which analyses incoming emails from eshops and extracts discount
-    information from text and images.
-    Works as a pipeline of several Rust binaries which pass messages via queues.
-- years: 2021
-  name: Jump rope assistant
-  url: github.com/bausano/jump-rope
-  keywords: Rust, signal processing, Bevy, ECS
-  description: >
-    Performs FFT over a video input to track a frequency of jumping a rope.
-    Graphs a curve representing the frequency.
-- years: 2020
-  name: suckless.hn
-  url: github.com/bausano/suckless.hn
-  keywords: Rust, SQLite, Docker, AWS, Hacker News, ARM
-  description: >
-    Website with an experimental architecture which filters Hacker News submissions.
-- years: 2019
-  name: Find objects in images
-  url: github.com/bausano/harriet-vision-nursery
-  keywords: Rust, image processing
-  description: >
-    Re-upload of an early Rust project. (Wrote first Rust programs in 2018.)
-    Spawns an HTTP server which finds objects in cartoon images.
+# projects:
+#   - years: 2021
+#     name: Newsletter discounts
+#     keywords: Rust, Docker, kubernetes, AWS, Python, machine learning
+#     description: >
+#       SaaS product which analyses incoming emails from eshops and extracts discount
+#       information from text and images.
+#       Works as a pipeline of several Rust binaries which pass messages via queues.
+#   - years: 2021
+#     name: Jump rope assistant
+#     url: github.com/bausano/jump-rope
+#     keywords: Rust, signal processing, Bevy, ECS
+#     description: >
+#       Performs FFT over a video input to track a frequency of jumping a rope.
+#       Graphs a curve representing the frequency.
+#   - years: 2020
+#     name: suckless.hn
+#     url: github.com/bausano/suckless.hn
+#     keywords: Rust, SQLite, Docker, AWS, Hacker News, ARM
+#     description: >
+#       Website with an experimental architecture which filters Hacker News submissions.
+#   - years: 2019
+#     name: Find objects in images
+#     url: github.com/bausano/harriet-vision-nursery
+#     keywords: Rust, image processing
+#     description: >
+#       Re-upload of an early Rust project. (Wrote first Rust programs in 2018.)
+#       Spawns an HTTP server which finds objects in cartoon images.
 
 ---
+
