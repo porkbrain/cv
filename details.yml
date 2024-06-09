@@ -5,13 +5,12 @@ mainfont: CMU Serif
 # Personal details
 name: Michael Bausano
 address:
-  - Prague, Czech Republic
-phone: "+44 75 999 06 380"
+  - Czech Republic
 email: linkedin@porkbrain.com
 urls:
-  - github.com/bausano
-  # - github.com/bausano?tab=repositories&language=rust
+  - github.com/porkbrain?tab=repositories&language=rust
   - porkbrain.com
+  - manyagents.ai
 
 # Sections
 intro:
@@ -23,24 +22,23 @@ intro:
     settings but easy going in their instant messaging correspondence.
 
 experience:
-  - years: 2022--2023
-    employer: Originbyte
-    job: Move Developer
-    keywords: blockchain, Sui, Move
+  - years: 2023--2024
+    employer: Enhance
+    job: Rust backend contractor
+    keywords: Rust, gRPC, Docker, microservices, Google Cloud, DevOps, Postgres
     description: >
-      Contributed to core trading concepts on Sui blockchain.
-  - years: 2021--2022
-    employer: Aldrin
+      Most notably converted a 100k+ LoC codebase to async/await.
+  - years: 2021--2023
+    employer: Aldrin, later Originbyte
     job: Rust DeFi Team Lead
     keywords: blockchain, Solana, Sui, Rust, Typescript, Move, Anchor
     description: >
       Quickly obtained necessary technological skills for design, development and
       maintenance of Solana programs.
-      Applied strong software engineering background to deliver features such as
-      borrow lending, leverage yield farming, automatic market maker, concentrated
-      liquidity, stable coin and others.
+      Delivered features such as borrow lending, leverage yield farming,
+      automatic market maker, concentrated liquidity, stable coin and others.
+      Contributed to core trading concepts on Sui blockchain.
       My programs were independently audited with a highly positive feedback.
-      Currently leading a team of engineers to deliver new features.
   - years: 2021
     employer: Lumaly
     job: Consultant
@@ -88,14 +86,21 @@ education:
     institute: Middlesex University London
     city: London
 
-# projects:
-#   - years: 2021
-#     name: Newsletter discounts
-#     keywords: Rust, Docker, kubernetes, AWS, Python, machine learning
-#     description: >
-#       SaaS product which analyses incoming emails from eshops and extracts discount
-#       information from text and images.
-#       Works as a pipeline of several Rust binaries which pass messages via queues.
+projects:
+  - years: 2024
+    name: Game development
+    keywords: Rust, Bevy, ECS
+    description: >
+      Working on a game in my free time.
+  - years: 2021
+    name: Newsletter discounts
+    keywords: Rust, Docker, kubernetes, AWS, Python, machine learning
+    description: >
+      SaaS product which analyses incoming emails from eshops and extracts discount
+      information from text and images.
+      Works as a pipeline of several Rust binaries which pass messages via queues.
+
+
 #   - years: 2021
 #     name: Jump rope assistant
 #     url: github.com/bausano/jump-rope
