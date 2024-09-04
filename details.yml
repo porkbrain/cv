@@ -22,6 +22,12 @@ intro:
     settings but easy going in their instant messaging correspondence.
 
 experience:
+  - years: 2024
+    employer: Atoma
+    job: Move contractor
+    keywords: blockchain, Move, Rust, Sui
+    description: >
+      Wrote smart contract for coordination of off-chain inference providers.
   - years: 2023--2024
     employer: Enhance
     job: Rust backend contractor
